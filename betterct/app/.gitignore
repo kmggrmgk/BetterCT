@@ -1,0 +1,34 @@
+# 忽略操作系统生成的文件
+.DS_Store
+Thumbs.db
+
+# 忽略本地环境变量文件
+.env
+.local
+
+# Flutter build-specific ignores
+.dart_tool/package_config.json
+flutter_export_environment.sh
+
+# Platform-specific builds
+**/android/**/gradle-wrapper.jar
+**/android/build/
+**/android/app/build/
+**/android/key.properties
+
+# Linux specific
+/linux/flutter/ephemeral/
+/linux/intermediates/
+/linux/build/
+
+# Windows specific
+/windows/flutter/ephemeral/
+/windows/intermediates/
+/windows/build/
+
+# IDE specific
+.vscode/settings.json
+*.vsix
+
+# CI/CD
+.github/workflows/cache/
