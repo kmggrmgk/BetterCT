@@ -1,1 +1,7 @@
 betterct/backend/.env
+betterct/backend/app/__pycache__/
+betterct/backend/app/api/__pycache__/
+betterct/backend/app/core/__pycache__/
+betterct/backend/app/models/__pycache__/
+betterct/backend/app/schemas/__pycache__/
+betterct/backend/lib/

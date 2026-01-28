@@ -1,8 +1,8 @@
 import httpx
 from fastapi import Depends, HTTPException, Request, status
 from clerk_backend_api.security import AuthenticateRequestOptions
-from backend.app.core.config import settings
-from backend.app.core.clerk import clerk
+from app.core.config import settings
+from app.core.clerk import clerk
 
 class AuthUser:
     def __init__(self, user_id: str, org_id: str, org_permissions: list):
