@@ -74,7 +74,7 @@ export default function Hero() {
                             fontSize: 'clamp(3rem, 10vw, 3.5rem)',
                         }}
                     >
-                        Our&nbsp;latest&nbsp;
+                        我们&nbsp;最新的&nbsp;
                         <Typography
                             component="span"
                             variant="h1"
@@ -86,7 +86,7 @@ export default function Hero() {
                                 }),
                             })}
                         >
-                            products
+                            产品
                         </Typography>
                     </Typography>
                     <Typography
@@ -96,9 +96,7 @@ export default function Hero() {
                             width: { sm: '100%', md: '80%' },
                         }}
                     >
-                        Explore our cutting-edge dashboard, delivering high-quality solutions
-                        tailored to your needs. Elevate your experience with top-tier features
-                        and services.
+                        探索我们最先进的仪表板，提供高质量、量身定制的解决方案。通过顶级功能和服务提升您的体验。
                     </Typography>
                     <Stack
                         direction={{ xs: 'column', sm: 'row' }}
@@ -107,20 +105,20 @@ export default function Hero() {
                         sx={{ pt: 2, width: { xs: '100%', sm: '350px' } }}
                     >
                         <InputLabel htmlFor="email-hero" sx={visuallyHidden}>
-                            Email
+                            电子邮箱
                         </InputLabel>
                         <TextField
                             id="email-hero"
                             hiddenLabel
                             size="small"
                             variant="outlined"
-                            aria-label="Enter your email address"
-                            placeholder="Your email address"
+                            aria-label="请输入您的电子邮箱地址"
+                            placeholder="您的电子邮箱地址"
                             fullWidth
                             slotProps={{
                                 htmlInput: {
                                     autoComplete: 'off',
-                                    'aria-label': 'Enter your email address',
+                                    'aria-label': '请输入您的电子邮箱地址',
                                 },
                             }}
                         />
@@ -130,7 +128,7 @@ export default function Hero() {
                             size="small"
                             sx={{ minWidth: 'fit-content' }}
                         >
-                            Start now
+                            现在开始
                         </Button>
                     </Stack>
                     <Typography
@@ -138,9 +136,9 @@ export default function Hero() {
                         color="text.secondary"
                         sx={{ textAlign: 'center' }}
                     >
-                        By clicking &quot;Start now&quot; you agree to our&nbsp;
+                        点击&quot;开始&quot; 你同意我们的&nbsp;
                         <Link href="#" color="primary">
-                            Terms & Conditions
+                            条款与条件
                         </Link>
                         .
                     </Typography>

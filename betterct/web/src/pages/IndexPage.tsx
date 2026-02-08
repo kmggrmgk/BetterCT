@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Divider } from "@mui/material";
+import { Box, Divider } from "@mui/material";
 import AppTheme from '../shared-theme/AppTheme';
 import AppAppBar from '../component/AppAppBar';
 import Hero from '../component/Hero';

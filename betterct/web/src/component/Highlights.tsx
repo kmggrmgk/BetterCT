@@ -15,39 +15,39 @@ import ThumbUpAltRoundedIcon from '@mui/icons-material/ThumbUpAltRounded';
 const items = [
     {
         icon: <SettingsSuggestRoundedIcon />,
-        title: 'Adaptable performance',
+        title: '适应性性能',
         description:
-            'Our product effortlessly adjusts to your needs, boosting efficiency and simplifying your tasks.',
+            '我们的产品能够轻松适应您的需求，提高效率，简化您的工作。',
     },
     {
         icon: <ConstructionRoundedIcon />,
-        title: 'Built to last',
+        title: '经久耐用',
         description:
-            'Experience unmatched durability that goes above and beyond with lasting investment.',
+            '体验无与伦比的耐用性，实现超越期望的持久价值投资。',
     },
     {
         icon: <ThumbUpAltRoundedIcon />,
-        title: 'Great user experience',
+        title: '出色的用户体验',
         description:
-            'Integrate our product into your routine with an intuitive and easy-to-use interface.',
+            '通过直观且易于使用的界面，将我们的产品融入您的日常生活。',
     },
     {
         icon: <AutoFixHighRoundedIcon />,
-        title: 'Innovative functionality',
+        title: '创新功能',
         description:
-            'Stay ahead with features that set new standards, addressing your evolving needs better than the rest.',
+            '通过引领新标准的功能保持领先，更好地满足您不断变化的需求。',
     },
     {
         icon: <SupportAgentRoundedIcon />,
-        title: 'Reliable support',
+        title: '可靠的支持',
         description:
-            'Count on our responsive customer support, offering assistance that goes beyond the purchase.',
+            '依靠我们响应迅速的客户支持，提供超越购买本身的帮助。',
     },
     {
         icon: <QueryStatsRoundedIcon />,
-        title: 'Precision in every detail',
+        title: '精益求精',
         description:
-            'Enjoy a meticulously crafted product where small touches make a significant impact on your overall experience.',
+            '享受一款精心打造的产品，每一个细节都能显著提升您的整体体验。',
     },
 ];
 
@@ -78,12 +78,10 @@ export default function Highlights() {
                     }}
                 >
                     <Typography component="h2" variant="h4" gutterBottom>
-                        Highlights
+                        亮点
                     </Typography>
                     <Typography variant="body1" sx={{ color: 'grey.400' }}>
-                        Explore why our product stands out: adaptability, durability,
-                        user-friendly design, and innovation. Enjoy reliable customer support and
-                        precision in every detail.
+                        探索我们的产品为何与众不同：适应性、耐用性、用户友好设计和创新。享受可靠的客户支持和每一个细节的精确性。
                     </Typography>
                 </Box>
                 <Grid container spacing={2}>

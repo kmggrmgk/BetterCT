@@ -39,13 +39,12 @@ export default function AppAppBar() {
 
   return (
       <AppBar
-          position="fixed"
+          position="static"
           enableColorOnDark
           sx={{
             boxShadow: 0,
             bgcolor: 'transparent',
             backgroundImage: 'none',
-            mt: 'calc(var(--template-frame-height, 0px) + 28px)',
           }}
       >
         <Container maxWidth="lg">
@@ -54,22 +53,22 @@ export default function AppAppBar() {
               <Sitemark />
               <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
                 <Button variant="text" color="info" size="small">
-                  Features
+                  功能
                 </Button>
                 <Button variant="text" color="info" size="small">
-                  Testimonials
+                  用户评价
                 </Button>
                 <Button variant="text" color="info" size="small">
-                  Highlights
+                  亮点
                 </Button>
                 <Button variant="text" color="info" size="small">
-                  Pricing
+                  定价
                 </Button>
                 <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
-                  FAQ
+                  常见问题（FAQ）
                 </Button>
                 <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
-                  Blog
+                  博客
                 </Button>
               </Box>
             </Box>
@@ -81,10 +80,10 @@ export default function AppAppBar() {
                 }}
             >
               <Button color="primary" variant="text" size="small">
-                Sign in
+                登录
               </Button>
               <Button color="primary" variant="contained" size="small">
-                Sign up
+                注册
               </Button>
               <ColorModeIconDropdown />
             </Box>

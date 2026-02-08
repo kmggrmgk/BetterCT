@@ -83,13 +83,10 @@ export default function Pricing() {
                     gutterBottom
                     sx={{ color: 'text.primary' }}
                 >
-                    Pricing
+                    定价
                 </Typography>
                 <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                    Quickly build an effective pricing table for your potential customers with
-                    this layout. <br />
-                    It&apos;s built with default Material UI components with little
-                    customization.
+                    使用此布局快速为潜在客户创建一个有效的价格表。 <br />
                 </Typography>
             </Box>
             <Grid

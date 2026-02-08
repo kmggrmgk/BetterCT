@@ -11,46 +11,46 @@ import { useTheme } from '@mui/system';
 
 const userTestimonials = [
     {
-        avatar: <Avatar alt="Remy Sharp" src="/static/images/avatar/1.jpg" />,
-        name: 'Remy Sharp',
-        occupation: 'Senior Engineer',
+        avatar: <Avatar alt="雷米·夏普" src="/static/images/avatar/1.jpg" />,
+        name: '雷米·夏普',
+        occupation: '高级工程师',
         testimonial:
-            "I absolutely love how versatile this product is! Whether I'm tackling work projects or indulging in my favorite hobbies, it seamlessly adapts to my changing needs. Its intuitive design has truly enhanced my daily routine, making tasks more efficient and enjoyable.",
+            "我完全喜欢这款产品的多功能性！无论是处理工作项目还是享受我最喜欢的爱好，它都能无缝适应我不断变化的需求。它的直观设计真正提升了我的日常生活，让任务变得更加高效和愉快。",
     },
     {
-        avatar: <Avatar alt="Travis Howard" src="/static/images/avatar/2.jpg" />,
-        name: 'Travis Howard',
-        occupation: 'Lead Product Designer',
+        avatar: <Avatar alt="特拉维斯·霍华德" src="/static/images/avatar/2.jpg" />,
+        name: '特拉维斯·霍华德',
+        occupation: '首席产品设计师',
         testimonial:
-            "One of the standout features of this product is the exceptional customer support. In my experience, the team behind this product has been quick to respond and incredibly helpful. It's reassuring to know that they stand firmly behind their product.",
+            "这个产品的一个突出特点是卓越的客户支持。根据我的经验，这个产品背后的团队反应迅速，提供了非常有用的帮助。知道他们坚决支持自己的产品令人感到安心。",
     },
     {
-        avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/3.jpg" />,
-        name: 'Cindy Baker',
-        occupation: 'CTO',
+        avatar: <Avatar alt="辛迪·贝克" src="/static/images/avatar/3.jpg" />,
+        name: '辛迪·贝克',
+        occupation: '首席技术官',
         testimonial:
-            'The level of simplicity and user-friendliness in this product has significantly simplified my life. I appreciate the creators for delivering a solution that not only meets but exceeds user expectations.',
+            '这款产品的简便性和用户友好性大大简化了我的生活。我感谢创作者提供了一个不仅满足而且超越用户期望的解决方案。',
     },
     {
-        avatar: <Avatar alt="Remy Sharp" src="/static/images/avatar/4.jpg" />,
-        name: 'Julia Stewart',
-        occupation: 'Senior Engineer',
+        avatar: <Avatar alt="雷米·夏普" src="/static/images/avatar/4.jpg" />,
+        name: '朱莉娅·斯图尔特',
+        occupation: '高级工程师',
         testimonial:
-            "I appreciate the attention to detail in the design of this product. The small touches make a big difference, and it's evident that the creators focused on delivering a premium experience.",
+            "我很欣赏这个产品设计中的细节关注。小小的细节能带来很大的不同，很明显创作者们专注于提供高品质的体验。",
     },
     {
-        avatar: <Avatar alt="Travis Howard" src="/static/images/avatar/5.jpg" />,
-        name: 'John Smith',
-        occupation: 'Product Designer',
+        avatar: <Avatar alt="特拉维斯·霍华德" src="/static/images/avatar/5.jpg" />,
+        name: '约翰·史密斯',
+        occupation: '产品设计师',
         testimonial:
-            "I've tried other similar products, but this one stands out for its innovative features. It's clear that the makers put a lot of thought into creating a solution that truly addresses user needs.",
+            "我尝试过其他类似的产品，但这款产品因其创新的功能而脱颖而出。很明显，制造商在设计解决方案时投入了很多心思，真正满足了用户的需求。",
     },
     {
-        avatar: <Avatar alt="Cindy Baker" src="/static/images/avatar/6.jpg" />,
-        name: 'Daniel Wolf',
-        occupation: 'CDO',
+        avatar: <Avatar alt="辛迪·贝克" src="/static/images/avatar/6.jpg" />,
+        name: '丹尼尔·沃尔夫',
+        occupation: '首席数据官',
         testimonial:
-            "The quality of this product exceeded my expectations. It's durable, well-designed, and built to last. Definitely worth the investment!",
+            "这款产品的质量超过了我的预期。它耐用、设计精良，而且经久耐用。绝对值得投资！",
     },
 ];
 
@@ -106,12 +106,10 @@ export default function Testimonials() {
                     gutterBottom
                     sx={{ color: 'text.primary' }}
                 >
-                    Testimonials
+                    客户评价
                 </Typography>
                 <Typography variant="body1" sx={{ color: 'text.secondary' }}>
-                    See what our customers love about our products. Discover how we excel in
-                    efficiency, durability, and satisfaction. Join us for quality, innovation,
-                    and reliable support.
+                    看看我们的客户为何喜爱我们的产品。了解我们在效率、耐用性和客户满意度方面的卓越表现。加入我们，享受高品质、创新和可靠的支持。
                 </Typography>
             </Box>
             <Grid container spacing={2}>

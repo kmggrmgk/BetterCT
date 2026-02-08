@@ -17,8 +17,8 @@ function Copyright() {
     return (
         <Typography variant="body2" sx={{ color: 'text.secondary', mt: 1 }}>
             {'Copyright © '}
-            <Link color="text.secondary" href="https://mui.com/">
-                Sitemark
+            <Link color="text.secondary" href="https://www.istaroth.xin">
+                Istaroth
             </Link>
             &nbsp;
             {new Date().getFullYear()}
@@ -57,12 +57,12 @@ export default function Footer() {
                     <Box sx={{ width: { xs: '100%', sm: '60%' } }}>
                         <SitemarkIcon />
                         <Typography variant="body2" gutterBottom sx={{ fontWeight: 600, mt: 2 }}>
-                            Join the newsletter
+                            订阅新闻通讯
                         </Typography>
                         <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2 }}>
-                            Subscribe for weekly updates. No spams ever!
+                            订阅以获取每周更新。绝不会发送垃圾邮件！
                         </Typography>
-                        <InputLabel htmlFor="email-newsletter">Email</InputLabel>
+                        <InputLabel htmlFor="email-newsletter">电子邮箱</InputLabel>
                         <Stack direction="row" spacing={1} useFlexGap>
                             <TextField
                                 id="email-newsletter"
@@ -70,12 +70,12 @@ export default function Footer() {
                                 size="small"
                                 variant="outlined"
                                 fullWidth
-                                aria-label="Enter your email address"
-                                placeholder="Your email address"
+                                aria-label="请输入您的电子邮箱地址"
+                                placeholder="您的电子邮箱地址"
                                 slotProps={{
                                     htmlInput: {
                                         autoComplete: 'off',
-                                        'aria-label': 'Enter your email address',
+                                        'aria-label': '请输入您的电子邮箱地址',
                                     },
                                 }}
                                 sx={{ width: '250px' }}
@@ -86,7 +86,7 @@ export default function Footer() {
                                 size="small"
                                 sx={{ flexShrink: 0 }}
                             >
-                                Subscribe
+                                订阅
                             </Button>
                         </Stack>
                     </Box>
@@ -99,22 +99,22 @@ export default function Footer() {
                     }}
                 >
                     <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
-                        Product
+                        产品
                     </Typography>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Features
+                        特点
                     </Link>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Testimonials
+                        用户评价
                     </Link>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Highlights
+                        亮点
                     </Link>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Pricing
+                        定价
                     </Link>
                     <Link color="text.secondary" variant="body2" href="#">
-                        FAQs
+                        常见问题（FAQs）
                     </Link>
                 </Box>
                 <Box
@@ -125,16 +125,16 @@ export default function Footer() {
                     }}
                 >
                     <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
-                        Company
+                        公司
                     </Typography>
                     <Link color="text.secondary" variant="body2" href="#">
-                        About us
+                        关于我们
                     </Link>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Careers
+                        职员
                     </Link>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Press
+                        媒体
                     </Link>
                 </Box>
                 <Box
@@ -145,16 +145,16 @@ export default function Footer() {
                     }}
                 >
                     <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
-                        Legal
+                        法律
                     </Typography>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Terms
+                        条款
                     </Link>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Privacy
+                        隐私
                     </Link>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Contact
+                        联系
                     </Link>
                 </Box>
             </Box>
@@ -170,13 +170,13 @@ export default function Footer() {
             >
                 <div>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Privacy Policy
+                        隐私政策
                     </Link>
                     <Typography sx={{ display: 'inline', mx: 0.5, opacity: 0.5 }}>
                         &nbsp;•&nbsp;
                     </Typography>
                     <Link color="text.secondary" variant="body2" href="#">
-                        Terms of Service
+                        服务条款
                     </Link>
                     <Copyright />
                 </div>
@@ -189,7 +189,7 @@ export default function Footer() {
                     <IconButton
                         color="inherit"
                         size="small"
-                        href="https://github.com/mui"
+                        href="https://github.com/SolomonCaptain"
                         aria-label="GitHub"
                         sx={{ alignSelf: 'center' }}
                     >
@@ -198,7 +198,7 @@ export default function Footer() {
                     <IconButton
                         color="inherit"
                         size="small"
-                        href="https://x.com/MaterialUI"
+                        href="https://x.com/Istahhffuuf"
                         aria-label="X"
                         sx={{ alignSelf: 'center' }}
                     >
